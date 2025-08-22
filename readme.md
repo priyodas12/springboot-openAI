@@ -8,13 +8,13 @@ It allows you to perform semantic search based on cosine similarity.
 
 ## Tech Stack
 
-### Java 21, Spring Boot 3.x
+#### Java 21, Spring Boot 3.x
 
-### Maven
+#### Maven
 
-### PostgreSQL + pgvector
+#### PostgreSQL + pgvector
 
-### OpenAI Embeddings API (or local embedding models with GPU)
+#### OpenAI Embeddings API (or local embedding models with GPU)
 
 ### Reference Documentation
 
