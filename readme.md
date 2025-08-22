@@ -16,7 +16,7 @@ It allows you to perform semantic search based on cosine similarity.
 
 #### OpenAI Embeddings API (or local embedding models with GPU)
 
-### Reference Documentation
+## Reference Documentation
 
 For further reference, please consider the following sections:
 
@@ -28,7 +28,7 @@ For further reference, please consider the following sections:
 * [OpenAI](https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html)
 * [Spring Web](https://docs.spring.io/spring-boot/3.5.4/reference/web/servlet.html)
 
-### Guides
+## Guides
 
 The following guides illustrate how to use some features concretely:
 
@@ -37,7 +37,7 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
-### Maven Parent overrides
+## Maven Parent overrides
 
 Due to Maven's design, elements are inherited from the parent POM to the project POM.
 While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the
