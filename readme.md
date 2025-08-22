@@ -16,6 +16,24 @@ It allows you to perform semantic search based on cosine similarity.
 
 #### OpenAI Embeddings API (or local embedding models with GPU)
 
+```aiignore
+curl --location 'http://localhost:8080/open-api/v1/embeddings' \
+--header 'Content-Type: application/json' \
+--data '{
+    "texts": [
+    "k8s","kubernetes","pods","service","deployment","helm","log4j"
+    ]
+}'
+
+curl --location 'http://localhost:8080/open-api/v1/search?query=functional%20interface&limit=5'
+
+
+curl --location 'http://localhost:8080/open-ai/eligible/models'
+
+
+
+```
+
 ## Reference Documentation
 
 For further reference, please consider the following sections:
@@ -25,7 +43,8 @@ For further reference, please consider the following sections:
 * [Create an OCI image](https://docs.spring.io/spring-boot/3.5.4/maven-plugin/build-image.html)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/3.5.4/reference/data/sql.html#data.sql.jpa-and-spring-data)
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/3.5.4/reference/using/devtools.html)
-* [OpenAI](https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html)
+* [OpenAI](https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html) - get apiKey,projectKey,organizationKey
+  from here
 * [Spring Web](https://docs.spring.io/spring-boot/3.5.4/reference/web/servlet.html)
 
 ## Guides
