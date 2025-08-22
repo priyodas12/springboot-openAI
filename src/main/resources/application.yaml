@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: springboot-openAI
+  config:
+    import: optional:file:./secrets/.env[.properties]
+  datasource:
+    url: ${VECTOR_DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  ai:
+    openai:
+      api-key: ${OPEN_AI_KEY}
+      orgId: ${ORGANIZATION_ID}
+      projectId: ${PROJECT_ID}
+      embedding:
+        options:
+          model: ${MODEL_ID}
+          dimensions: ${DIMENSION}
