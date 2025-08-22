@@ -1,5 +1,21 @@
 # Getting Started
 
+Spring Boot + OpenAI Embeddings + PostgreSQL (pgvector)
+
+This project demonstrates how to create semantic embeddings using OpenAI (or local models) and store them in PostgreSQL
+with pgvector.
+It allows you to perform semantic search based on cosine similarity.
+
+## Tech Stack
+
+### Java 21, Spring Boot 3.x
+
+### Maven
+
+### PostgreSQL + pgvector
+
+### OpenAI Embeddings API (or local embedding models with GPU)
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
